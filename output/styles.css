@@ -28,6 +28,7 @@ body {
   background-color: #fdc273;
   color: #000000;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .products-section {
