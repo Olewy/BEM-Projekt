@@ -13,17 +13,18 @@ body {
 }
 
 .heading {
-  text-decoration: underline;
   text-decoration-color: $primary-color;
   font-size: 2rem;
+  border-bottom: 2px solid $primary-color;
 }
 
 .button {
+  padding: 1rem 2rem;
   background-color: $primary-color;
   border: none;
-  padding: 1rem 2rem;
+  border-radius: 3px;
   color: #fff;
-  border-radius: 2px;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -98,5 +99,9 @@ body {
       font-size: 0.9rem;
       padding-left: 0.5rem;
     }
+  }
+  .product:hover {
+    transform: scale(1.005);
+    cursor: pointer;
   }
 }
